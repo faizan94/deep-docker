@@ -25,7 +25,7 @@ docker run -d -p 8888:8888 --link=myMongoDB:mongodb --name deep deep_image
 
 ### Open bash when container is running command
 ```
-docker exec -it deep_image bash 
+docker exec -it deep bash 
 ```
 
 ### Copy docker files from host to docker 
