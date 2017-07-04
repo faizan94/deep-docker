@@ -25,7 +25,8 @@ RUN conda install -y \
   && pip install --upgrade -I setuptools \
   && pip install --upgrade \
     keras \
-    tensorflow
+    tensorflow \
+    pymongo
 
 RUN conda install -y \
     jupyter \
