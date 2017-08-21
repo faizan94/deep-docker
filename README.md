@@ -39,4 +39,9 @@ docker exec -it deep bash
 docker cp foo.txt deep:/foo.txt
 ```
 
+## Some important links
 
+#### Good Tutorials on jupyter notebook
+```
+https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+```
