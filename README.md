@@ -6,11 +6,13 @@ It contains dockerfile which will install keras, jupyterm, tensorflow,
 ```
 docker build -t deep_image .
 ```
+## Run deep image without any linkage
 
 ### Run container command
 ```
 docker run -d -p 8888:8888 --name deep deep_image
 ```
+## Run deep image with mongo db
 
 ### Install and run mongo
 ```
