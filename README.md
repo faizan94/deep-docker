@@ -1,6 +1,6 @@
 # Deep Dockerfile
 
-It contains dockerfile which will install keras, jupyterm, tensorflow, 
+It contains dockerfile which will install jupyter and open it on port 8888 and install some required packegs for Data Science, Machine Learning and Deep Learning.
 
 ### Build command
 ```
