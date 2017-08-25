@@ -26,7 +26,9 @@ RUN conda install -y \
   && pip install --upgrade \
     keras \
     tensorflow \
-    pymongo
+    pymongo \
+    tflearn \
+    pybrain
 
 RUN conda install -y \
     jupyter \
@@ -35,7 +37,9 @@ RUN conda install -y \
     scikit-learn \
     numpy \
     scipy \
-    nltk
+    gensim \
+    nltk \
+    scikit-image
 
 RUN apt-get update
 RUN apt-get install -y ca-certificates
