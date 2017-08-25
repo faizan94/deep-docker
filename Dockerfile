@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 
 MAINTAINER faizan.khan@tenpearls.com
 
@@ -36,6 +36,9 @@ RUN conda install -y \
     numpy \
     scipy \
     nltk
+
+RUN apt-get update
+RUN apt-get install -y ca-certificates
 
 VOLUME /notebook
 WORKDIR /notebook
