@@ -1,6 +1,6 @@
 FROM jupyter/minimal-notebook
 
-MAINTAINER Jupyter Project <jupyter@googlegroups.com>
+MAINTAINER Faizan Khan <faizan.khan@tenpearls.com>
 
 USER root
 
